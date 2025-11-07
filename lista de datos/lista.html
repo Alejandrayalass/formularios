@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de datos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main>
+    <h1>lista de datos</h1>
+
+    <form>
+      <label for="personaje1"><em>¿Cuál es tu personaje de Harry Potter favorito?</em></label>
+      <input list="personajes" id="personaje1" name="personaje1">
+
+      <datalist id="personajes">
+        <option value="Harry Potter">
+        <option value="Hermione Granger">
+        <option value="Ron Weasley">
+        <option value="Luna Lovegood">
+        <option value="Draco Malfoy">
+      </datalist>
+
+      <label for="personaje2"><em>¿Cuál es tu personaje de Harry Potter secundario?</em></label>
+      <input list="secundarios" id="personaje2" name="personaje2">
+
+      <datalist id="secundarios">
+        <option value="Albus Dumbledore">
+        <option value="Sirius Black">
+        <option value="Remus Lupin">
+        <option value="Neville Longbottom">
+        <option value="Minerva McGonagall">
+        <option value= "Severus Snape">
+      </datalist>
+    </form>
+  </main>
+</body>
+</html>
